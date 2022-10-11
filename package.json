@@ -1,4 +1,14 @@
 {
+  "name": "lift",
+  "version": "1.0.0",
+  "description": "Elevator Emulator",
+  "keywords": [],
+  "author": "iclegane",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "install": "webpack --mode production"
+  },
   "devDependencies": {
     "webpack": "^5.74.0"
   }
